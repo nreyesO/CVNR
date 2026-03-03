@@ -1,4 +1,3 @@
-import React from "react";
 import type { ContactInfo } from "../App";
 
 type Props = {
