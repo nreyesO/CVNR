@@ -1,42 +1,52 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.cv {
+  max-width: 760px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.topLine {
+  height: 2px;
+  background: #111;
+  margin-bottom: 18px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name {
+  font-size: 44px;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.title {
+  color: #1a8f3a;
+  margin: 6px 0 18px;
+  font-weight: 600;
 }
 
-.card {
-  padding: 2em;
+.contactBlock p {
+  margin: 4px 0;
 }
 
-.read-the-docs {
-  color: #888;
+.sectionTitle {
+  color: #1a8f3a;
+  margin: 22px 0 10px;
+  font-size: 18px;
+}
+
+.blueTitle {
+  color: #1a5ee6;
+  margin: 10px 0 6px;
+  font-size: 18px;
+}
+
+.muted {
+  margin: 0 0 8px;
+  color: #333;
+}
+
+.block {
+  margin-bottom: 18px;
+}
+
+ul {
+  margin: 8px 0 10px 20px;
 }
